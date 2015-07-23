@@ -1,2 +1,2 @@
-pefile==1.2.10-139
+pefile==1.2.10-114
 requests==2.7.0

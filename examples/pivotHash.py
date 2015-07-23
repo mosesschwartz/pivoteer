@@ -1,3 +1,9 @@
+# add .. to path in case we're being run from the examples directory
+# and pivoteer isn't in our path
+import sys, os
+myPath = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, myPath + '/../')
+
 from pivoteer import Hopper
 from pivoteer import pivotHash
 from pivoteer import pivotIP

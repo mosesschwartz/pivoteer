@@ -36,6 +36,10 @@ import hashlib
 import time
 import email
 import hmac
+
+import os
+import sys
+
 import config
 
 outputFormats = {
