@@ -84,7 +84,8 @@ bigResult += domainPivot
 print "add another domain route\n", bigResult
 ```
 
-# ToDo
+# To Do
+* Give a proper error message when no keys or config directory is found
 * Gracefully exit when a particular API key doesn't exist (e.g. if a user doesn't have an iSight account)
 * Do non-blocking IO (grequests)
 * Add more service pivoting services
